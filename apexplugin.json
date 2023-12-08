@@ -1,6 +1,6 @@
 {
    "name": "UC - Drag And Drop",
-   "version": "22.1.0",
+   "version": "23.1",
    "description": "Enable any list, card or table based region to allow drag \u0026 drop reordering.\r\n\u003Ch4\u003EFree Plug-in under MIT License\u003C\/h4\u003E\r\n\u003Cp\u003E\r\nAll UC plug-ins are released under MIT License, which essentially means it is free for everyone to use, no matter if commercial or private use. \r\n\u003C\/p\u003E\r\n\u003Ch4\u003EOverview\u003C\/h4\u003E\r\n\u003Cp\u003EThe \u003Cstrong\u003EUC - Drag and Drop\u003C\/strong\u003E dynamic action plug-in makes it possible to drag \u0026 drop elements inside a region. This could be a Cards region, a Badge list or basically everything that has a group of elements.\u003C\/p\u003E\r\n\u003Cp\u003EOn every change of the order of items an event is fired passing the necessary change information accessible via \"this.data\" within your dynamic action handler. Additionally you can execute PL\/SQL code to do an update of your database tables or execute some additional Javascript code.\u003C\/p\u003E\r\n\u003Cp\u003EThe plug-in is built around Shopify\u0027s Draggable library (https:\/\/github.com\/Shopify\/draggable).\u003C\/p\u003E",
    "keywords": [
       "list",
@@ -12,20 +12,20 @@
    "license": "MIT",
    "commercial": "No",
    "commercially_supported": "Yes",
-   "homepage": "https:\/\/github.com\/foex-open-source\/uc-drag-and-drop",
+   "homepage": "https://www.plug-ins-pro.com/",
    "bugs": {
-      "url": "https:\/\/github.com\/foex-open-source\/uc-drag-and-drop\/issues",
-      "email": "support@uc.world"
+      "url": "https://github.com/plug-ins-pro/drag_and_drop//issues",
+      "email": "info@plug-ins-pro.com"
    },
    "author": {
-      "name": "UC GmbH",
-      "email": "office@uc.world",
-      "url": "https:\/\/foex.at\/uc\/",
-      "twitter": "@foexopensource"
+      "name": "United Codes",
+      "email": "info@plug-ins-pro.com",
+      "url": "https://www.plug-ins-pro.com/",
+      "twitter": "@Plug_ins_Pro"
    },
    "repository": {
       "type": "git",
-      "url": "https:\/\/github.com\/foex-open-source\/uc-drag-and-drop.git"
+      "url": "https://github.com/plug-ins-pro/drag_and_drop/"
    },
    "oracle": {
       "versions": [
@@ -33,7 +33,8 @@
          "12.2.0.1",
          "18.0.0.0",
          "19.0.0.0",
-         "21.0.0.0"
+         "21.0.0.0",
+         "23.0.0.0"
       ],
       "apex": {
          "versions": [
@@ -42,13 +43,15 @@
             "20.2.0",
             "21.1.0",
             "21.2.0",
-            "22.1.0"
+            "22.1.0",
+            "23.1.0",
+            "23.2.0"
          ],
          "plugin": {
             "internalName": "UNITEDCODES_DRAG_AND_DROP_LIST",
             "type": "dynamic action",
-            "demo": "https:\/\/uc.world\/ords\/f?p=10000:1130",
-            "previewImage": "https:\/\/uc.world\/ords\/uc_master_ws\/uc-image\/COM.UC.DRAG_AND_DROP_LIST"
+            "demo" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/pluginspro_free/",
+            "previewImage": "https://unitedcodes.s3.eu-west-1.amazonaws.com/plugin/images/UC_DRAG_AND_DROP_LIST.gif"
          }
       }
    }
